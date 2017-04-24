@@ -1,0 +1,276 @@
+/**
+ * General elements
+ */
+body {
+	font-family: Helvetica;
+	height: 100%;
+	margin: 0;
+	padding: 2em;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+fieldset {
+	border: 1px solid #ddd;
+	margin: 1em 0;
+}
+
+/**
+ * Specific elemnts
+ */
+#mw-js-message {
+	display: none;
+}
+
+/**
+ * Personal menu
+ */
+#personal {
+	float: right;
+	font-size: small;
+	margin: 23px;
+	padding: 0;
+	text-align: right;
+}
+#personal li {
+	display: inline;
+	margin: 0 10px;
+	padding: 0;
+}
+
+/**
+ * Header
+ */
+#header {
+	box-sizing: border-box;
+	padding: 1em 0 1em 12em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+/**
+ * Main
+ */
+#main {
+	margin-left: 10em;
+}
+
+/**
+ * Sidebar
+ */
+#sidebar {
+	font-size: small;
+	line-height: 2;
+	padding: 2em;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+#sidebar h1 {
+	border: none;
+}
+
+/**
+ * Title
+ */
+#title {
+
+}
+
+/**
+ * Actions
+ */
+#actions {
+	display: inline;
+	font-size: small;
+	font-weight: 300;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#actions li {
+	display: inline;
+	margin: 0 15px 0 0;
+	padding: 0;
+}
+#actions li.selected a {
+	color: #333;
+}
+#actions a {
+	color: blue;
+	text-decoration: none;
+}
+#actions a:hover {
+	text-decoration: underline;
+}
+
+/**
+ * Search form
+ */
+#search-form {
+	position: relative;
+	width: 600px;
+}
+#search-form button {
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	margin: 13px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#search-form img {
+	display: block;
+}
+#search-form input {
+	border: none;
+	box-sizing: border-box;
+	font: inherit;
+	font-size: larger;
+	outline: none;
+	padding: 20px;
+	width: 100%;
+}
+
+/**
+ * Content
+ */
+#content {
+	line-height: 1.5;
+	overflow: hidden;
+	margin: 2em 0;
+	padding: 2em;
+}
+#content ol {
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+#content ul {
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+
+/**
+ * Table of contents
+ */
+#toc {
+	background: #f5f5f5;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 1em;
+}
+#toc ul {
+	margin: 0;
+}
+#toc li {
+	list-style: none;
+}
+#toc h2 {
+	display: inline;
+}
+#toc .toctoggle {
+	display: none; /* Hide it because it cannot be styled like the Edit section button */
+}
+
+/**
+ * Thumbs
+ */
+.thumb {
+	background: #f5f5f5;
+	border: 1px solid #ddd;
+}
+.thumb .thumbinner {
+	padding: 10px;
+}
+.thumb .tright {
+	margin: 0 0 10px 10px;
+}
+.thumb .tleft {
+	margin: 0 10px 10px 0;
+}
+.thumb .thumbcaption {
+	font-size: small;
+}
+
+/**
+ * Galleries
+ * 
+ * Galleries come with their own styling, these are overrides to make the galleries fit with the overall style of the Venus skin
+ */
+#content .gallerytext {
+	font-size: small;
+	margin: 5px;
+	padding: 0;
+}
+#content .gallerytext p {
+	margin: 0;
+}
+
+/**
+ * Edit section button
+ */
+.mw-editsection {
+	font-size: small;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+.mw-editsection-bracket {
+	display: none;
+}
+
+/**
+ * Collapse button
+ *
+ * This button is found on Special:RecentChanges and Special:Watchlist
+ */
+.mw-collapsible-toggle {
+	margin-left: 1em;
+}
+.mw-collapsible-bracket {
+	display: none;
+}
+
+/**
+ * Portals
+ */
+h5 {
+	font: inherit;
+	font-size: normal;
+	font-weight: bold;
+	margin: 0 6px;
+}
+.portal {
+	list-style: none;
+	margin: 0 6px;
+	padding: 0 0 1em 0;
+}
+.portal li {
+	margin: 0;
+}
+
+/**
+ * Make Firefox buttons like Chrome
+ */
+button::-moz-focus-inner {
+    border:0;
+    padding:0;
+}
+
+/**
+ * Styling for the Echo extension
+ */
+#personal #pt-notifications-alert a {
+	background-color: #ddd;
+	border-radius: 3px;
+	font-size: medium;
+}
+#personal #pt-notifications-alert a:hover {
+	background-color: #ccc;
+}
