@@ -51,30 +51,32 @@ fieldset {
  * Search form
  */
 #search-form {
-	position: relative;
-	width: 600px;
+	margin-bottom: 1em;
 }
 #search-form button {
 	border: none;
+	border-bottom: 1px solid #ddd;
 	background: transparent;
 	cursor: pointer;
-	margin: 13px;
-	padding: 0;
-	position: absolute;
-	top: 0;
-	right: 0;
+	margin: 0;
+	outline: none;
+	padding: 5px;
+	vertical-align: bottom;
 }
 #search-form img {
 	display: block;
+	width: 20px;
 }
 #search-form input {
 	border: none;
+	border-bottom: 1px solid #ddd;
 	box-sizing: border-box;
 	font: inherit;
-	font-size: larger;
+	font-size: medium;
+	margin: 0;
 	outline: none;
-	padding: 20px;
-	width: 100%;
+	padding: 5px 0;
+	width: 107px;
 }
 
 /**
@@ -218,22 +220,10 @@ button::-moz-focus-inner {
 }
 
 /**
- * Styling for the Echo extension
- */
-#personal #pt-notifications-alert a {
-	background-color: #ddd;
-	border-radius: 3px;
-	font-size: medium;
-}
-#personal #pt-notifications-alert a:hover {
-	background-color: #ccc;
-}
-
-/**
  * Footer
  */
 #footer-bottom {
-	border-top: 1px solid #aaa;
+	border-top: 1px solid #ddd;
 	font-size: small;
 	margin-top: 10em;
 	padding: 1em;
