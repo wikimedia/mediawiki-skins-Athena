@@ -45,7 +45,7 @@
 	</a>
 
 	<form id="search-form" action="<?php $this->text( 'wgScript' ); ?>">
-		<?php echo $this->makeSearchInput( array( 'type' => 'text', 'id' => 'search-field', 'placeholder' => 'Search...', 'autofocus' => true ) ); ?><button><img src="<?php global $wgStylePath; echo $wgStylePath; ?>/Athena/images/lens.png"></button>
+		<?php echo $this->makeSearchInput( array( 'type' => 'text', 'id' => 'search-field', 'placeholder' => wfMessage( 'athena-search' ), 'autofocus' => true ) ); ?><button><img src="<?php global $wgStylePath; echo $wgStylePath; ?>/Athena/images/lens.png"></button>
 		<input type="hidden" name="title" value="<?php $this->text( 'searchtitle' ) ?>" />
 	</form>
 
