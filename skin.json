@@ -19,7 +19,6 @@
 	},
 	"ResourceModules": {
 		"skins.athena": {
-			"scripts": "Athena.js",
 			"styles": "Athena.css"
 		}
 	},

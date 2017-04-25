@@ -10,7 +10,6 @@ class SkinAthena extends SkinTemplate {
 		global $wgDefaultSkin;
 		if ( $wgDefaultSkin === 'athena' ) {
 			$out->addModuleStyles( 'skins.athena' );
-			$out->addModuleScripts( 'skins.athena' );
 			$out->addMeta( 'viewport', 'width=device-width' );
 		}
 	}
