@@ -5,6 +5,7 @@
 		]
 	},
 	"athena-desc": "{{desc|name=Athena|url=https://www.mediawiki.org/wiki/Skin:Athena}}",
+	"athena-search": "Placeholder for the search form",
 	"athena-personal": "Label for the user section of the sidebar",
 	"athena-tools": "Label for the tools section of the sidebar"
 }
