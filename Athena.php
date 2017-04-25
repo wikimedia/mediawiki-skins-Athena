@@ -2,13 +2,17 @@
 
 class SkinAthena extends SkinTemplate {
 
-	var $skinname = 'athena',
-		$template = 'AthenaTemplate';
+	public $skinname = 'athena';
+
+	public $template = 'AthenaTemplate';
 
 	static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
-		$out->addModuleStyles( 'skins.athena' );
-		$out->addModuleScripts( 'skins.athena' );
-		$out->addMeta( 'viewport', 'width=device-width' );
+		global $wgDefaultSkin;
+		if ( $wgDefaultSkin === 'athena' ) {
+			$out->addModuleStyles( 'skins.athena' );
+			$out->addModuleScripts( 'skins.athena' );
+			$out->addMeta( 'viewport', 'width=device-width' );
+		}
 	}
 }
 

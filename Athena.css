@@ -26,87 +26,25 @@ fieldset {
 }
 
 /**
- * Personal menu
- */
-#personal {
-	float: right;
-	font-size: small;
-	margin: 23px;
-	padding: 0;
-	text-align: right;
-}
-#personal li {
-	display: inline;
-	margin: 0 10px;
-	padding: 0;
-}
-
-/**
- * Header
- */
-#header {
-	box-sizing: border-box;
-	padding: 1em 0 1em 12em;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-
-/**
- * Main
- */
-#main {
-	margin-left: 10em;
-}
-
-/**
  * Sidebar
  */
 #sidebar {
 	font-size: small;
-	line-height: 2;
-	padding: 2em;
+	padding: 1em 2em;
 	position: fixed;
 	top: 0;
 	left: 0;
 }
-#sidebar h1 {
-	border: none;
+#sidebar h5 {
+	font: inherit;
+	font-size: normal;
+	font-weight: bold;
+	margin: 1em 0 0 0;
 }
-
-/**
- * Title
- */
-#title {
-
-}
-
-/**
- * Actions
- */
-#actions {
-	display: inline;
-	font-size: small;
-	font-weight: 300;
+#sidebar .portal {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-}
-#actions li {
-	display: inline;
-	margin: 0 15px 0 0;
-	padding: 0;
-}
-#actions li.selected a {
-	color: #333;
-}
-#actions a {
-	color: blue;
-	text-decoration: none;
-}
-#actions a:hover {
-	text-decoration: underline;
 }
 
 /**
@@ -145,8 +83,8 @@ fieldset {
 #content {
 	line-height: 1.5;
 	overflow: hidden;
-	margin: 2em 0;
-	padding: 2em;
+	margin-left: 10em;
+	padding: 0 2em;
 }
 #content ol {
 	margin: 0 0 0 25px;
@@ -155,6 +93,40 @@ fieldset {
 #content ul {
 	margin: 0 0 0 25px;
 	padding: 0;
+}
+
+/**
+ * Title
+ */
+#title {
+
+}
+
+/**
+ * Actions
+ */
+#actions {
+	display: inline;
+	font-size: small;
+	font-weight: 300;
+	list-style: none;
+	margin-left: 1em !important;
+	padding: 0;
+}
+#actions li {
+	display: inline;
+	margin: 0 1em 0 0;
+	padding: 0;
+}
+#actions li.selected a {
+	color: #333;
+}
+#actions a {
+	color: blue;
+	text-decoration: none;
+}
+#actions a:hover {
+	text-decoration: underline;
 }
 
 /**
@@ -238,29 +210,11 @@ fieldset {
 }
 
 /**
- * Portals
- */
-h5 {
-	font: inherit;
-	font-size: normal;
-	font-weight: bold;
-	margin: 0 6px;
-}
-.portal {
-	list-style: none;
-	margin: 0 6px;
-	padding: 0 0 1em 0;
-}
-.portal li {
-	margin: 0;
-}
-
-/**
  * Make Firefox buttons like Chrome
  */
 button::-moz-focus-inner {
-    border:0;
-    padding:0;
+    border: 0;
+    padding: 0;
 }
 
 /**
@@ -273,4 +227,24 @@ button::-moz-focus-inner {
 }
 #personal #pt-notifications-alert a:hover {
 	background-color: #ccc;
+}
+
+/**
+ * Footer
+ */
+#footer-bottom {
+	border-top: 1px solid #aaa;
+	font-size: small;
+	margin-top: 10em;
+	padding: 1em;
+}
+.footer-icons {
+	float: right;
+}
+.footer-places {
+	padding: 0;
+}
+.footer-places li {
+	display: inline;
+	margin-right: 1em;
 }
