@@ -53,6 +53,17 @@ fieldset {
 #search-form {
 	margin-bottom: 1em;
 }
+#search-form input {
+	border: none;
+	border-bottom: 1px solid #ddd;
+	box-sizing: border-box;
+	font: inherit;
+	font-size: medium;
+	margin: 0;
+	outline: none;
+	padding: 5px 0;
+	width: 107px;
+}
 #search-form button {
 	border: none;
 	border-bottom: 1px solid #ddd;
@@ -66,17 +77,6 @@ fieldset {
 #search-form img {
 	display: block;
 	width: 20px;
-}
-#search-form input {
-	border: none;
-	border-bottom: 1px solid #ddd;
-	box-sizing: border-box;
-	font: inherit;
-	font-size: medium;
-	margin: 0;
-	outline: none;
-	padding: 5px 0;
-	width: 107px;
 }
 
 /**
