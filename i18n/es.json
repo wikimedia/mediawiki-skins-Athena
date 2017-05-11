@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sophivorus"
+			"Sophivorus",
+			"Macofe"
 		]
 	},
-	"athena-desc": "Skin simple para pantallas medianas a grandes.",
+	"athena-desc": "Apariencia simple para pantallas medianas a grandes.",
 	"athena-search": "Buscar...",
 	"athena-personal": "Personal",
 	"athena-tools": "Herramientas"
