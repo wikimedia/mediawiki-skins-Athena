@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sol lemon"
+			"Sol lemon",
+			"פוילישער"
 		]
 	},
-	"athena-search": "זוך",
-	"athena-personal": "פערזענליכע",
+	"athena-search": "זוכן...",
+	"athena-personal": "פערזענליך",
 	"athena-tools": "געצייג"
 }
