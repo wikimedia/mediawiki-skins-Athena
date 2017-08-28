@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dipusparaga"
+			"Dipusparaga",
+			"Uchup19"
 		]
 	},
 	"athena-search": "Paluruh...",
+	"athena-personal": "Pribadi",
 	"athena-tools": "Parabot"
 }
