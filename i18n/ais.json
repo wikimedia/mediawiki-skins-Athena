@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bunukwiki"
+			"Bunukwiki",
+			"Benel"
 		]
 	},
-	"athena-search": "kilim..."
+	"athena-search": "kilim...",
+	"athena-tools": "sakaluk"
 }
