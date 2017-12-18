@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hinaloe"
+			"Hinaloe",
+			"Yusuke1109"
 		]
 	},
+	"athena-desc": "中〜大画面のシンプルなスキン",
 	"athena-search": "検索...",
+	"athena-personal": "個人",
 	"athena-tools": "ツール"
 }
