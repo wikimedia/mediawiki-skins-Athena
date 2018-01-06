@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Subi"
+			"Subi",
+			"Mikel Ibaiba"
 		]
 	},
 	"athena-search": "Bilatu...",
+	"athena-personal": "Pertsonala",
 	"athena-tools": "Tresnak"
 }
