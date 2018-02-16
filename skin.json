@@ -5,7 +5,7 @@
 	"author": "[https://mediawiki.org/wiki/User:Sophivorus Felipe Schenone]",
 	"descriptionmsg": "athena-desc",
 	"type": "skin",
-	"license-name": "GPL-3.0",
+	"license-name": "GPL-3.0-only",
 	"MessagesDirs": {
 		"Athena": [
 			"i18n"
