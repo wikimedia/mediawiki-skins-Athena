@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Wehwei"
+			"Wehwei",
+			"Kly"
 		]
 	},
-	"athena-desc": "用在大螢幕上的簡易屏膚。",
+	"athena-desc": "用在大螢幕上的簡易外觀。",
 	"athena-search": "搜尋…",
 	"athena-personal": "個人",
 	"athena-tools": "工具"

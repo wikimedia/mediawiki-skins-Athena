@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nike"
+			"Nike",
+			"Pyscowicz"
 		]
 	},
 	"athena-desc": "Yksinkertainen ulkoasu keskisuurille ja suurille näytöille.",
 	"athena-search": "Etsi...",
+	"athena-personal": "Henkilökohtainen",
 	"athena-tools": "Työkalut"
 }
