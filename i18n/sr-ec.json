@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Obsuser"
+			"Obsuser",
+			"BadDog"
 		]
 	},
-	"athena-desc": "Једноставан скин за средње до велике екране.",
+	"athena-desc": "Једноставна тема за средње и велике екране",
 	"athena-search": "Претрага...",
 	"athena-personal": "Лично",
 	"athena-tools": "Алатке"
