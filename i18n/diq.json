@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirzali"
+			"Mirzali",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"athena-search": "Cıgeyrayış...",
+	"athena-personal": "Personel",
 	"athena-tools": "Haceti"
 }
