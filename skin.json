@@ -15,8 +15,8 @@
 		"athena": "Athena"
 	},
 	"AutoloadClasses": {
-		"SkinAthena": "Athena.php",
-		"AthenaTemplate": "Athena.php"
+		"SkinAthena": "includes/SkinAthena.php",
+		"AthenaTemplate": "includes/AthenaTemplate.php"
 	},
 	"ResourceModules": {
 		"skins.athena": {

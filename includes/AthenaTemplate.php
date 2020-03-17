@@ -1,19 +1,5 @@
 <?php
 
-class SkinAthena extends SkinTemplate {
-
-	public $skinname = 'athena';
-
-	public $template = 'AthenaTemplate';
-
-	static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
-		global $wgDefaultSkin;
-		if ( $wgDefaultSkin === 'athena' ) {
-			$out->addModuleStyles( 'skins.athena' );
-		}
-	}
-}
-
 class AthenaTemplate extends BaseTemplate {
 
 	/**
