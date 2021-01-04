@@ -2,17 +2,20 @@
  * General elements
  */
 body {
-	font-family: Helvetica;
+	font-family: 'Helvetica';
 	height: 100%;
 	margin: 0;
 	padding: 2em;
 }
+
 a {
 	text-decoration: none;
 }
+
 a:hover {
 	text-decoration: underline;
 }
+
 fieldset {
 	border: 1px solid #ddd;
 	margin: 1em 0;
@@ -39,12 +42,14 @@ fieldset {
 	top: 0;
 	left: 0;
 }
+
 #sidebar h5 {
 	font: inherit;
 	font-size: normal;
 	font-weight: bold;
 	margin: 1em 0 0 0;
 }
+
 #sidebar .portal {
 	list-style: none;
 	margin: 0;
@@ -57,6 +62,7 @@ fieldset {
 #search-form {
 	margin-bottom: 1em;
 }
+
 #search-form input {
 	border: none;
 	border-bottom: 1px solid #ddd;
@@ -68,6 +74,7 @@ fieldset {
 	padding: 5px 0;
 	width: 107px;
 }
+
 #search-form button {
 	border: none;
 	border-bottom: 1px solid #ddd;
@@ -78,6 +85,7 @@ fieldset {
 	padding: 5px;
 	vertical-align: bottom;
 }
+
 #search-form img {
 	display: block;
 	width: 20px;
@@ -92,10 +100,12 @@ fieldset {
 	margin-left: 10em;
 	padding: 0 2em;
 }
+
 #content ol {
 	margin: 0 0 0 25px;
 	padding: 0;
 }
+
 #content ul {
 	margin: 0 0 0 25px;
 	padding: 0;
@@ -119,18 +129,22 @@ fieldset {
 	margin-left: 1em !important;
 	padding: 0;
 }
+
 #actions li {
 	display: inline;
 	margin: 0 1em 0 0;
 	padding: 0;
 }
+
 #actions li.selected a {
 	color: #333;
 }
+
 #actions a {
-	color: blue;
+	color: #00f;
 	text-decoration: none;
 }
+
 #actions a:hover {
 	text-decoration: underline;
 }
@@ -144,15 +158,19 @@ fieldset {
 	display: inline-block;
 	padding: 1em;
 }
+
 #toc ul {
 	margin: 0;
 }
+
 #toc li {
 	list-style: none;
 }
+
 #toc h2 {
 	display: inline;
 }
+
 #toc .toctoggle {
 	display: none; /* Hide it because it cannot be styled like the Edit section button */
 }
@@ -164,22 +182,26 @@ fieldset {
 	background: #f5f5f5;
 	border: 1px solid #ddd;
 }
+
 .thumb .thumbinner {
 	padding: 10px;
 }
+
 .thumb .tright {
 	margin: 0 0 10px 10px;
 }
+
 .thumb .tleft {
 	margin: 0 10px 10px 0;
 }
+
 .thumb .thumbcaption {
 	font-size: small;
 }
 
 /**
  * Galleries
- * 
+ *
  * Galleries come with their own styling, these are overrides to make the galleries fit with the overall style of the Venus skin
  */
 #content .gallerytext {
@@ -187,6 +209,7 @@ fieldset {
 	margin: 5px;
 	padding: 0;
 }
+
 #content .gallerytext p {
 	margin: 0;
 }
@@ -199,6 +222,7 @@ fieldset {
 	font-weight: 300;
 	text-transform: capitalize;
 }
+
 .mw-editsection-bracket {
 	display: none;
 }
@@ -211,6 +235,7 @@ fieldset {
 .mw-collapsible-toggle {
 	margin-left: 1em;
 }
+
 .mw-collapsible-bracket {
 	display: none;
 }
@@ -219,8 +244,8 @@ fieldset {
  * Make Firefox buttons like Chrome
  */
 button::-moz-focus-inner {
-    border: 0;
-    padding: 0;
+	border: 0;
+	padding: 0;
 }
 
 /**
@@ -232,12 +257,15 @@ button::-moz-focus-inner {
 	margin-top: 10em;
 	padding: 1em;
 }
+
 .footer-icons {
 	float: right;
 }
+
 .footer-places {
 	padding: 0;
 }
+
 .footer-places li {
 	display: inline;
 	margin-right: 1em;
