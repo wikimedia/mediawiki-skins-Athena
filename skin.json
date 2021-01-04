@@ -12,7 +12,16 @@
 		]
 	},
 	"ValidSkinNames": {
-		"athena": "Athena"
+		"athena": {
+			"class": "SkinAthena",
+			"args": [
+				{
+					"name": "athena",
+					"template": "AthenaTemplate",
+					"styles": [ "skins.athena" ]
+				}
+			]
+		}
 	},
 	"AutoloadClasses": {
 		"SkinAthena": "includes/SkinAthena.php",
@@ -26,8 +35,5 @@
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
 		"remoteSkinPath": "Athena/resources"
-	},
-	"Hooks": {
-		"BeforePageDisplay": "SkinAthena::onBeforePageDisplay"
 	}
 }
