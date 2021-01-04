@@ -25,6 +25,10 @@ fieldset {
 	display: none;
 }
 
+.printfooter {
+	display: none;
+}
+
 /**
  * Sidebar
  */

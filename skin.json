@@ -20,12 +20,12 @@
 	},
 	"ResourceModules": {
 		"skins.athena": {
-			"styles": "Athena.css"
+			"styles": "css/Athena.css"
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteSkinPath": "Athena"
+		"localBasePath": "resources",
+		"remoteSkinPath": "Athena/resources"
 	},
 	"Hooks": {
 		"BeforePageDisplay": "SkinAthena::onBeforePageDisplay"

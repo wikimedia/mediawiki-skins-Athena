@@ -22,6 +22,6 @@ class AthenaTemplate extends BaseTemplate {
 	 * Output the page
 	 */
 	function execute() {
-		include 'Athena.phtml';
+		include __DIR__ . '/../resources/Athena.phtml';
 	}
 }

@@ -12,7 +12,7 @@ class SkinAthena extends SkinTemplate {
 	 */
 	static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		global $wgDefaultSkin;
-		if ( $wgDefaultSkin === 'athena' ) {
+		if ( $wgDefaultSkin === 'athena' || $wgDefaultSkin === 'Athena' ) {
 			$out->addModuleStyles( 'skins.athena' );
 		}
 	}
